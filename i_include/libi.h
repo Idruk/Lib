@@ -3,5 +3,6 @@
 
 int	i_strlen(char *str);
 void	i_putstr(char *str);
+void	i_putchar(char c);
 
 #endif		/*!LIBI_H_*/

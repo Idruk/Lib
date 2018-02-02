@@ -2,6 +2,7 @@ NAME	=	libi.a
 
 SRC	=	i_src/i_strlen.c	\
 		i_src/i_putstr.c	\
+		i_src/i_putchar.c	\
 
 OBJ	=	$(SRC:.c=.o)
 
