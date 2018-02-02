@@ -1,4 +1,4 @@
-int i_strlen(char *str)
+int	i_strlen(char *str)
 {
 	int i = 0;
 
