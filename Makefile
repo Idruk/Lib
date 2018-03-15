@@ -4,7 +4,8 @@ SRC	=	i_strlen.c	\
 		i_putstr.c	\
 		i_putchar.c	\
 		i_strcpy.c	\
-		i_strncpy.c
+		i_strncpy.c	\
+		i_strcmp.c
 
 SRCDIR	=	i_src/
 
