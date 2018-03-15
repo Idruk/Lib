@@ -3,7 +3,8 @@ NAME	=	libi.a
 SRC	=	i_strlen.c	\
 		i_putstr.c	\
 		i_putchar.c	\
-		i_strcpy.c
+		i_strcpy.c	\
+		i_strncpy.c
 
 SRCDIR	=	i_src/
 
