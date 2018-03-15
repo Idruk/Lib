@@ -1,10 +1,13 @@
 NAME	=	libi.a
 
-SRC	=	i_src/i_strlen.c	\
-		i_src/i_putstr.c	\
-		i_src/i_putchar.c	\
+SRC	=	i_strlen.c	\
+		i_putstr.c	\
+		i_putchar.c	\
+		i_strcpy.c
 
-OBJ	=	$(SRC:.c=.o)
+SRCDIR	=	i_src/
+
+OBJ	=	$(addprefix $(SRCDIR), $(SRC:.c=.o))
 
 CFLAGS	+=	-I./i_include
 
