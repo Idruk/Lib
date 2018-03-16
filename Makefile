@@ -1,3 +1,4 @@
+
 NAME	=	libi.a
 
 SRC	=	i_strlen.c	\
