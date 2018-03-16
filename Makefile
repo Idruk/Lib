@@ -1,13 +1,14 @@
 NAME	=	libi.a
 
-SRC	=	i_strlen.c	\
-		i_putstr.c	\
-		i_putchar.c	\
-		i_strcpy.c	\
-		i_strncpy.c	\
-		i_strcmp.c	\
-		i_strncmp.c	\
-		i_int_to_char.c	\
+SRC	=	i_strlen.c		\
+		i_putstr.c		\
+		i_putchar.c		\
+		i_strcpy.c		\
+		i_strncpy.c		\
+		i_strcmp.c		\
+		i_strncmp.c		\
+		i_int_to_char.c		\
+		i_int_to_char_base.c	\
 
 SRCDIR	=	i_src/
 
