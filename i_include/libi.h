@@ -1,7 +1,8 @@
-#ifndef		LIBI_H_
-#define		LIBI_H_
+#ifndef LIBI_H_
+# define LIBI_H_
+# include <stddef.h>
 
-int	i_strlen(char *str);
+size_t	i_strlen(const char *str);
 void	i_putstr(char *str);
 void	i_putchar(char c);
 char	*i_strcpy(char *dest, char *src);
@@ -11,4 +12,4 @@ int	i_strncmp(char *s1, char *s2, int n);
 char	*i_int_to_char(int nb);
 char	*i_int_to_char_base(int nb, char *base);
 
-#endif		/*!LIBI_H_*/
+#endif /*!LIBI_H_*/
