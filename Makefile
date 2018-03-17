@@ -9,6 +9,11 @@ SRC	=	i_strlen.c		\
 		i_strncmp.c		\
 		i_int_to_char.c		\
 		i_int_to_char_base.c	\
+		i_islower.c		\
+		i_isupper.c		\
+		i_isdigit.c		\
+		i_isalpha.c		\
+		i_isalnum.c
 
 SRCDIR	=	i_src/
 

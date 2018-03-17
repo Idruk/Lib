@@ -12,4 +12,10 @@ int	i_strncmp(char *s1, char *s2, int n);
 char	*i_int_to_char(int nb);
 char	*i_int_to_char_base(int nb, char *base);
 
+char	i_islower(const char c);
+char	i_isupper(const char c);
+char	i_isdigit(const char c);
+char	i_isalpha(const char c);
+char	i_isalnum(const char c);
+
 #endif /*!LIBI_H_*/
