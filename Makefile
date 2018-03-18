@@ -13,7 +13,8 @@ SRC	=	i_strlen.c		\
 		i_isupper.c		\
 		i_isdigit.c		\
 		i_isalpha.c		\
-		i_isalnum.c
+		i_isalnum.c		\
+		i_strdup.c
 
 SRCDIR	=	i_src/
 
