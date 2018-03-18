@@ -10,7 +10,7 @@ SRC	=	i_strlen.c		\
 		i_int_to_char.c		\
 		i_int_to_char_base.c	\
 
-SRCDIR	=	i_src/
+SRCDIR	=	i_standard/
 
 OBJ	=	$(addprefix $(SRCDIR), $(SRC:.c=.o))
 
