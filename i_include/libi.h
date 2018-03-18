@@ -18,5 +18,7 @@ char	i_isupper(const char c);
 char	i_isdigit(const char c);
 char	i_isalpha(const char c);
 char	i_isalnum(const char c);
+char	*strdup(const char *src);
+char	*strstr(const char *str, const char *token);
 
 #endif /*!LIBI_H_*/
