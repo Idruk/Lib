@@ -1,8 +1,10 @@
 NAME	=	libi.a
 
 SRC	=	i_strlen.c		\
-		i_putstr.c		\
+		i_putstr_fd.c		\
+		i_putchar_fd.c		\
 		i_putchar.c		\
+		i_putstr.c		\
 		i_strcpy.c		\
 		i_strncpy.c		\
 		i_strcmp.c		\
