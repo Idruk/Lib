@@ -17,7 +17,7 @@ SRC	=	i_strlen.c		\
 		i_strdup.c		\
 		i_strstr.c
 
-SRCDIR	=	i_src/
+SRCDIR	=	i_standard/
 
 OBJ	=	$(addprefix $(SRCDIR), $(SRC:.c=.o))
 
