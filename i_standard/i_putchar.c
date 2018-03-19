@@ -1,6 +1,7 @@
-#include <unistd.h>
 
-void	i_putchar(char c)
+#include "libi.h"
+
+int	i_putchar(const char c)
 {
-	write(1, &c, 1);
+  return (i_putchar_fd(1, c));
 }

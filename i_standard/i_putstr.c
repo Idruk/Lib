@@ -1,7 +1,7 @@
-#include "libi.h"
-#include <unistd.h>
 
-void	i_putstr(int fd, char *str)
+#include "libi.h"
+
+int	i_putstr(const char *str)
 {
-	write(fd, str, i_strlen(str));
+  return (i_putstr_fd(1, str));
 }
