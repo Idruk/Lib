@@ -10,5 +10,5 @@ char		*i_strcpy(char *dest, const char *src)
       ++src;
     }
   *dest = '\0';
-  return (sdest);
+  return ((char*)sdest);
 }
